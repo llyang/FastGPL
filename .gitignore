@@ -1,3 +1,8 @@
+cmake-*
+*build*
+
+.DS_Store
+
 # Prerequisites
 *.d
 
