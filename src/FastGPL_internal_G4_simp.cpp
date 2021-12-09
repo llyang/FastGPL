@@ -66,9 +66,6 @@ complex<double> G4_explicit_0aaa(complex<double> a, int sa, double x)
         + l1
         * (Log(xa, -sa) * l1 * l1 / 6. + l1 * PolyLog(2, xa1, sa) / 2.
             - PolyLog(3, xa1, sa));
-
-    return (Log(x / a, -sa) * l1 * l1 * l1) / 6. + (l1 * l1 * PolyLog(2, xa1, sa)) / 2.
-        - l1 * PolyLog(3, xa1, sa) + PolyLog(4, xa1, sa) - Zeta(4);
 }
 
 // G({a,0,a,a},x)
