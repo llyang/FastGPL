@@ -110,5 +110,14 @@ complex<double> FastGPL::G(
     if (len == 4)
         return FastGPL_internal::G4_dispatch(a, s, x);
 
+    if (FastGPL_internal::is_convergent(a, x))
+        return FastGPL_internal::G_Hoelder(a, s, x);
+
+    if (len == 5)
+        return FastGPL_internal::G5_dispatch(a, s, x);
+
+    if (len == 6)
+        return FastGPL_internal::G6_dispatch(a, s, x);
+
     throw FastGPL_error { "GPL: not implemented" };
 }

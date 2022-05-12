@@ -75,4 +75,10 @@ std::complex<double> G3_dispatch(
 
 std::complex<double> G4_dispatch(
     const std::vector<std::complex<double>>& a, const std::vector<int>& s, double x);
+
+std::complex<double> G5_dispatch(
+    const std::vector<std::complex<double>>& a, const std::vector<int>& s, double x);
+
+std::complex<double> G6_dispatch(
+    const std::vector<std::complex<double>>& a, const std::vector<int>& s, double x);
 };

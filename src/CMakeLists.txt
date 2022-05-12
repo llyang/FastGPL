@@ -1,5 +1,7 @@
 set(SOURCE_FILES "${PROJECT_NAME}.cpp" "${PROJECT_NAME}_internal.cpp"
         "${PROJECT_NAME}_internal_G3.cpp" "${PROJECT_NAME}_internal_G4_simp.cpp" "${PROJECT_NAME}_internal_G4.cpp"
+        "${PROJECT_NAME}_internal_G5_simp.cpp" "${PROJECT_NAME}_internal_G5.cpp"        
+        "${PROJECT_NAME}_internal_G6_simp.cpp" "${PROJECT_NAME}_internal_G6_1.cpp" "${PROJECT_NAME}_internal_G6_2.cpp" "${PROJECT_NAME}_internal_G6_3.cpp" "${PROJECT_NAME}_internal_G6_4.cpp"
         PolyLog.cpp Nielsen.cpp Util.cpp Elliptic.cpp)
 set(PUBLIC_HEADERS "../include/${PROJECT_NAME}.h")
 set(PRIVATE_HEADERS "../include/${PROJECT_NAME}_internal.h")
